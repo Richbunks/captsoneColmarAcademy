@@ -152,12 +152,14 @@ h1.content-title {
 }
 
 .article {
-  display: flex;
-    
-
+  display: flex;    
 }
 
-.article:last-child {
+.content .article:first-child {
+    border-bottom: 1px solid rgb(205, 206, 209);
+}
+
+.content .article:last-child {
     background-color: rgb(202, 204, 203);
 }
 
@@ -177,7 +179,7 @@ h1.content-title {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: auto 1rem auto 2rem;    
+  margin: auto 1rem auto 2.5rem;    
 }
 
 .article-text h2 {
@@ -245,14 +247,32 @@ subject,p  {
    
 }
 
-.exhibit .left-divide {
+.exhibit {
+    padding-bottom: 2rem;
+}
+
+.section.exhibit  {
+    border-bottom: 1px solid rgb(205, 206, 209); 
+}
+
+.exhibit .divide-left {
     width: 60%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 .exhibit video {
     width: 100%;
+    padding-bottom: 1.5rem;
 }
 
+.exhibit .divide-left p {
+    padding-top: 0.5rem;
+}
+
+.exhibit .article:first-child {
+    background-color: rgb(202, 204, 203);
+}
 
 
 /* Footer Style */
