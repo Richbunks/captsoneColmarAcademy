@@ -8,19 +8,24 @@
     <link rel="icon" href="resources/images/favicon.ico" type="image/x-icon">
   </head>
   <body>
-      <!-- Nav bar and company logo -->
-      <nav>
+      <!-- Header and Nav bar -->
+      <header>
           <div class="company">
-              <img class"icon" src="resources/images/ic-logo.svg">
+              <img class="icon" src="resources/images/ic-logo.svg">
               <span>COLMAR</span><span>ACADEMY</span>
+              <img class="icon mobile" src="resources/images/ic-on-campus.svg">
+              <img class="icon mobile" src="resources/images/ic-online.svg">
+              <img class="icon mobile" src="resources/images/ic-login.svg">
           </div>
-          <ul>
-            <li><a id="campus">On campus</a></li>
-            <li><a id="online"></a>Online</li>
-            <li><a id="companies"></a>For companies</li>
-            <li><a id="sign-in"></a>Sign in</li>
-          </ul>
-      </nav>
+          <nav>
+              <ul>
+                <li><a id="campus">On campus</a></li>
+                <li><a id="online"></a>Online</li>
+                <li><a id="companies"></a>For companies</li>
+                <li><a id="sign-in"></a>Sign in</li>
+              </ul>
+          </nav>
+      </header>
 
       <!-- Banner -->
       <div class="section banner">
@@ -35,7 +40,7 @@
             <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </h2>
             <div class="btn">
-                <h3>Start here</h3>
+                <h3><a href="#">Start here</a></h3>
             </div>
           </div>
       </div>
@@ -56,7 +61,8 @@
         <div class="divide-right">
           <div class="article">
             <div class="article-image">
-              <img src="resources/images/information-orientation.jpg">
+              <img class="desktop"  src="resources/images/information-orientation.jpg">
+              <img class="mobile" src="resources/images/information-orientation-mobile.jpg">    
             </div>
             <div class="article-text">
               <h2>Orientation date</h2>
@@ -66,7 +72,8 @@
           </div>
           <div class="article">
             <div class="article-image">
-              <img src="resources/images/information-campus.jpg">
+              <img class="desktop" src="resources/images/information-campus.jpg">
+              <img class="mobile" src="resources/images/information-campus-mobile.jpg">     
             </div>
             <div class="article-text">
               <h2>Our campus</h2>
@@ -76,7 +83,8 @@
           </div>
           <div class="article">
             <div class="article-image">
-              <img src="resources/images/information-guest-lecture.jpg">
+              <img class="desktop" src="resources/images/information-guest-lecture.jpg">
+              <img class="mobile" src="resources/images/information-guest-lecture-mobile.jpg">     
             </div>
             <div class="article-text">
               <h2>Our guest lecture</h2>
@@ -149,7 +157,7 @@
       
       
         <div class="exhibit top-title">
-              <h1>Thesis exhibit</h1>
+              <h1>Thesis exhibits</h1>
         </div>
         <div class="section exhibit">  
           <div class="divide-left">           
@@ -185,11 +193,10 @@
       </div>
       
       <!-- Footer -->
-      <div class="footer">
+      <footer>
           <h4>&copy; 2016 Colmar Academy. All rights reserved</h4>
-          <h4>Terms  Privacy</h4>
-          
-      </div>
+          <h4>Terms  Privacy</h4>     
+      </footer>
 
 
   </body>
